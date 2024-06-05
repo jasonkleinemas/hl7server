@@ -1,0 +1,13 @@
+     A********************************************************************
+     A*
+     A* jh7xml30 - XML File locations
+     A*
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7XML10R
+     A            XML10AD        1A         COLHDG('Active' 'Deactive')
+     A            XML10ID       10A         COLHDG('Environment' 'ID ')
+     A            XML10PATH    100A         COLHDG('Where To Put The XML')
+     A            XML10LOG       1A         COLHDG('Log' 'XML' 'Files')
+     A            XML10LOGPT   100A         COLHDG('Where To Log The XML')
+     A*

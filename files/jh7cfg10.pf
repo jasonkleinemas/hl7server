@@ -1,0 +1,19 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxcfg10 - Field Table
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7CFG10R
+     A            CFG10AD        1A         COLHDG('ACTIVE' 'DEACTIVE')
+     A            CFGID         10A         COLHDG('ENVIRONMENT' 'ID ')
+     A            CFG10SEGNM     3A         COLHDG('SEGMENT' 'NAME')
+     A            CFG10FLD#      3P 0       COLHDG('FIELD' 'TO GET')
+     A            CFG10ARRAY     3P 0       COLHDG('IF ARRAY' 'FLD #')
+     A            CFG10SFLD#     3P 0       COLHDG('SUB' 'FIELD #')
+     A            CFG10SSFLD     3P 0       COLHDG('SUB SUB' 'FIELD #')
+     A            CFG10KEYDS    10A         COLHDG('KEY' 'DESCRIPTION')
+     A            CFG10SEQ#      4A         COLHDG('IF OBX' 'THEN USE')
+     A            CFG10BLANK     1A         COLHDG('ALLOW' 'BLANK')
+     A*

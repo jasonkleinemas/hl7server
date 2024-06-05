@@ -1,0 +1,48 @@
+4cp -c -l jklein961 -f files/jh7cfg10.pf;
+4cp -c -l jklein961 -f files/jh7cfg20.pf;
+4cp -c -l jklein961 -f files/jh7cfg30.pf;
+4cp -c -l jklein961 -f files/jh7con10.pf;
+4cp -c -l jklein961 -f files/jh7doc10.pf;
+4cp -c -l jklein961 -f files/jh7doc20.pf;
+4cp -c -l jklein961 -f files/jh7doc30.pf;
+4cp -c -l jklein961 -f files/jh7dtd70.pf;
+4cp -c -l jklein961 -f files/jh7env10.pf;
+4cp -c -l jklein961 -f files/jh7env20.pf;
+4cp -c -l jklein961 -f files/jh7fnd10.pf;
+4cp -c -l jklein961 -f files/jh7gen10.pf;
+4cp -c -l jklein961 -f files/jh7log.pf;
+4cp -c -l jklein961 -f files/jh7recordp.pf;
+4cp -c -l jklein961 -f files/jh7tmpd.pf;
+4cp -c -l jklein961 -f files/jh7tmpin.pf;
+4cp -c -l jklein961 -f files/jh7tmpk.pf;
+4cp -c -l jklein961 -f files/jh7tmpr.pf;
+4cp -c -l jklein961 -f files/jh7tmpr2.pf;
+
+4cp -c -l jklein961 -f files/jh7cfg10l1.lf;
+4cp -c -l jklein961 -f files/jh7cfg10l2.lf;   # Not needed anymore
+4cp -c -l jklein961 -f files/jh7cfg10la.lf;
+4cp -c -l jklein961 -f files/jh7cfg20l1.lf;
+4cp -c -l jklein961 -f files/jh7cfg30l1.lf;
+4cp -c -l jklein961 -f files/jh7con10l1.lf;
+4cp -c -l jklein961 -f files/jh7doc30l1.lf;
+4cp -c -l jklein961 -f files/jh7dtd70l1.lf;
+4cp -c -l jklein961 -f files/jh7env20l1.lf;
+4cp -c -l jklein961 -f files/jh7fnd10l1.lf;
+4cp -c -l jklein961 -f files/jh7gen10l1.lf;
+4cp -c -l jklein961 -f files/jh7tmpkl1.lf;   # Not needed anymore
+4cp -c -l jklein961 -f files/jh7tmpkl2.lf;   # Not needed anymore
+
+4cp -c -l jklein961 -f servers/jh710SvrSt.clle
+4cp -c -l jklein961 -f servers/jh710Srvr.rpgle
+4cp -c -l jklein961 -f servers/jh750purge.clle
+4cp -c -l jklein961 -f servers/jh751purge.sqlrpgle
+
+4cp -c -l jklein961 -f servers/jh7dtaqend.rpgle
+4cp -c -l jklein961 -f servers/jh7serverq.rpgle
+
+4cp -c -l jklein961 -f utilityPrograms/jh7rftl.rpgle
+
+4cp -c -l jklein961 -f clients/jh7clnt010.dspf
+4cp -c -l jklein961 -f clients/jh7clnt020.dspf
+4cp -c -l jklein961 -f clients/jh7clnt010.rpgle
+4cp -c -l jklein961 -f clients/jh7clnt020.rpgle

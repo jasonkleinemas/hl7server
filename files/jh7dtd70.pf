@@ -1,0 +1,18 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxdtd170 - Document Type Definition
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7170R
+     A            DACREC         1          COLHDG('A' '/' 'D')
+     A                                      TEXT('ACTIVE/DISABLED, A/D')
+     A            DSEQ#          5S 0       COLHDG('REC' 'SEQ' 'NBR')
+     A                                      TEXT('RECORD SEQUENCE NUMBER')
+     A            DATLIN        90          COLHDG('DTD' 'TEXT' 'LINE')
+     A                                      TEXT('DTD TEXT LINE')
+     A            DMISA1        15A         COLHDG('MISC' 'FIELD' '#1')
+     A                                      TEXT('MISCELLANEOUS FIELD 1')
+     A            DMISA2        15A         COLHDG('MISC' 'FIELD' '#2')
+     A                                      TEXT('MISCELLANEOUS FIELD 2')

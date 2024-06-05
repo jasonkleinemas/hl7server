@@ -1,0 +1,12 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7cfg30l1 - XML output, Programs to call, Active Only
+     A************1234567890******A*********1*****************************
+     A
+     A          R HL7CFG30R                 PFILE(JH7CFG30)
+     A          K CFG3ID
+     A
+     A          S CFG30AD                   VALUES('A' 'a')
+     A

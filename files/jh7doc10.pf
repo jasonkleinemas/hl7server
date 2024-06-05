@@ -1,0 +1,37 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxdoc10 - Page Output Formatting
+     A************1234567890******A*********1*****************************
+      *
+     A                                      UNIQUE
+     A          R HL7DOC1R
+     A            FMTTYPE       10A         COLHDG('PAGE FMT' 'TYPE')
+     A                                      ALIAS(PAGE_FMT_TYPE)
+     A            PAGLEN         4S 2       COLHDG('PAGE' 'LENGTH')
+     A                                      ALIAS(PAGE_LENGTH)
+     A            PAGWIDTH       4S 2       COLHDG('PAGE' 'WIDTH')
+     A                                      ALIAS(PAGE_WIDTH)
+     A            TOPMARG        3S 2       COLHDG('TOP MARG')
+     A                                      ALIAS(TOP_MARG)
+     A            LEFTMARG       3S 2       COLHDG('LEFT MARG')
+     A                                      ALIAS(LEFT_MARG)
+     A            LINSPACE       2S 2       COLHDG('LINE' 'SPACING')
+      *                                      IN POINTS
+     A                                      ALIAS(LINE_SPACING)
+     A            FONTTYPE       4S         COLHDG('FONT' 'TYPE')
+     A                                      ALIAS(FONT_TYPE)
+     A            FONTWIDTH      4S         COLHDG('FONT' 'WIDTH')
+      *                                      IN TWIPS
+     A                                      ALIAS(FONT_WIDTH)
+     A            OVERLAYNM      8A         COLHDG('OVERLAY' 'NAME')
+     A                                      ALIAS(OVERLAY_NAME)
+     A            OVERLAYPG      3S         COLHDG('OVERLAY' 'PAGE')
+     A                                      ALIAS(OVERLAY_PAGE)
+     A            CHARLINE       3S         COLHDG('CHAR PER' 'LINE')
+     A                                      ALIAS(CHAR_PER_LINE)
+     A            LINEPAGE       2S         COLHDG('LINES PER' 'PAGE')
+     A                                      ALIAS(LINES_PER_PAGE)
+      * KEY - FORMAT TYPE
+     A          K FMTTYPE

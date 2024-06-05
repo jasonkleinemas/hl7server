@@ -1,0 +1,51 @@
+Stat with JH7ENV10
+These will match on the whole field excutng the seperators.
+ENVSNDAPP  SENDING APP   field 3
+ENVSNDFAC  SENDING FAC   field 4
+ENVRCVAPP  RECEIVING APP field 5
+ENVRCVFAC  RECEIVING FAC field 6
+
+These are seperated out
+ENVMSGTYPE MESSAGE TYPE  field 9 Sub field 1
+ENVMSGEVNT EVENT TYPE    field 9 sub field 2
+
+This is the name you set. To mach all the other files.
+ENVID      COLHDG('ENVIRONMENT' 'ID')
+
+JH7CFG10 - per envid
+This is where the key values you want are set.
+
+JH7CFG20 - per envid - optional
+This the where to get the document from. 
+And some misc options for the document.
+
+JH7CFG30 - per envid 
+Programs to call to deal with the data.
+
+JH7CON10 - per envid - optional
+Set static key values per message.
+This is where 'DOC TYPE' can be set. 
+
+JH7DOC10 - optional
+Defalt PAGE_FMT_TYPE is 'ZZZZZZZZZZ'
+
+JH7DOC20 - per envid - optional
+Options for adding or removing the headers and footer
+
+JH7DOC30 - ID from Doc20 - optional
+Options for adding or removing the headers and footer
+
+JH7DTD70 - - optional
+OPtional DTD tags
+
+JH7FND10 - per envid - optional
+Find string in document and store value
+
+JH7GEN10 - per envid - optional
+Convert key value base on table.
+
+JH7GEN10 - per envid
+Where to write out the xml files and documents.
+
+
+

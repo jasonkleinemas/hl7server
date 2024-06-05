@@ -1,0 +1,24 @@
+/**************************************************************/
+/*                   */
+/*  Run the listener */
+/*                   */
+/**************************************************************/
+PGM        PARM(&envId &pgmName)
+
+  DCL        VAR(&envId)      TYPE(*CHAR) LEN(10)
+  DCL        VAR(&pgmName)    TYPE(*CHAR) LEN(10)
+
+  OVRPRTF    FILE(QPRINT) PAGESIZE(255 132) PRTTXT('JH7 Running Log') MAXRCDS(*NOMAX) SHARE(*YES) OVRSCOPE(*JOB)
+  MONMSG     MSGID(CPF180C CPF7343)
+
+  OVRDBF     FILE(JH7TMPD  ) TOFILE(QTEMP/JH7TMPD  )
+  OVRDBF     FILE(JH7TMPIN ) TOFILE(QTEMP/JH7TMPIN )
+  OVRDBF     FILE(JH7TMPK  ) TOFILE(QTEMP/JH7TMPK  )
+  OVRDBF     FILE(JH7TMPR  ) TOFILE(QTEMP/JH7TMPR  )
+  OVRDBF     FILE(JH7TMPR2 ) TOFILE(QTEMP/JH7TMPR2 )
+
+  CALL       PGM(jh7msg01tc) PARM(&envId &pgmName)
+
+  RCLRSC
+  RETURN
+ENDPGM

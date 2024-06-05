@@ -1,0 +1,15 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxtmpc - Temp File - Holds Report
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7TMPRR
+     A            TMPRPTLIN      9P 2       COLHDG('LINE' 'NUMBER')
+     A            TMPMISC1       5A         COLHDG('Misc' '1')
+     A            TMPMISC2       5A         COLHDG('Misc' '2')
+     A            TMPRPT       500A         COLHDG('REPORT' 'LINE')
+     A
+     A          K TMPRPTLIN
+     A

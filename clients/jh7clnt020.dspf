@@ -1,0 +1,36 @@
+     A****************************************************************
+     A*                                                              *
+     A*                                                              *
+     A*                                                              *
+     A*                                                              *
+     A****************************************************************
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      PRINT
+     A                                      ALTHELP(CA01)
+     A                                      HELP
+     A          R REC1
+     A                                      CF03
+     A            OUTPROC       10A  O  1  3COLOR(BLU)
+     A                                  1 70SYSNAME
+     A                                      COLOR(BLU)
+     A                                  2 70DATE
+     A                                      EDTCDE(Y)
+     A                                      COLOR(BLU)
+     A                                  3 70TIME
+     A                                      COLOR(BLU)
+     A            INDATETIME    26A  B  7  6COLOR(YLW)
+     A                                  1 23'Send Message to Interface'
+     A                                      COLOR(PNK)
+     A            OUTSNT0       70A  O 11  3COLOR(WHT)
+     A            OUTSNT1       70A  O 12  3COLOR(WHT)
+     A            OUTSNT2       70A  O 13  3COLOR(WHT)
+     A            OUTSNT3       70A  O 14  3COLOR(WHT)
+     A            OUTSNT4       70A  O 15  3COLOR(WHT)
+     A            OUTSNT5       70A  O 16  3COLOR(WHT)
+     A            OUTSNT6       70A  O 17  3COLOR(WHT)
+     A            OUTSNT7       70A  O 18  3COLOR(WHT)
+     A            OUTSNT8       70A  O 19  3COLOR(WHT)
+     A            OUTSNT9       70A  O 20  3COLOR(WHT)
+     A                                 23  3'F3 - Exit  Enter - Send'
+     A                                      COLOR(PNK)

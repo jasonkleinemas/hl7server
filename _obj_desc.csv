@@ -1,0 +1,57 @@
+#                             1         2         3         4         5         6         7         8
+#                    12345678901234567890123456789012345678901234567890 123456789012345678901234567890
+# files/
+jh7cfg10.pf         ,Field Table
+jh7cfg10L1.lf       ,Field Table - Active Only
+jh7cfg20.pf         ,Where to get the document.
+jh7cfg20l1.lf       ,Where to get the document. Active Only
+jh7cfg30.pf         ,Programs to call
+jh7cfg30l1.lf       ,Programs to call - Active Only
+jh7con10.pf         ,Constant Key values
+jh7con10l1.lf       ,Constant Key values - Active Only
+jh7doc10.pf         ,Page Output Formatting
+jh7doc20.pf         ,Document Output Options
+jh7doc30.pf         ,Field Descriptions For new document
+jh7doc30l1.lf       ,Field Descriptions For new document
+jh7dtd170.pf        ,Document Type Definition
+jh7dtd170l1.lf      ,Document Type Definition Active Only
+jh7env10.pf         ,Keys to match message to set environment.
+jh7env20.pf         ,Not sure
+jh7env20l1.lf       ,Not sure
+jh7fnd10.pf         ,Find String in Report
+jh7fnd10l1.lf       ,Find String in Report
+jh7gen10.pf         ,Generic Convert Table
+jh7gen10.pf         ,Generic Convert Table Active Only
+jh7log.pf           ,Log of Incomming Data Stream records
+jh7recordp.pf       ,Log of Incomming Data Stream records XML Creation
+jh7tmpd.pf          ,Temp File - Document Info
+jh7tmpin.pf         ,Temp File - Incomming Data Stream records
+jh7tmpk.pf          ,Temp File - Holds Keys
+jh7tmpr.pf          ,Temp File - Holds Report
+jh7tmpr2.pf         ,Temp File - Holds Report 2
+jh7xml10.pf         ,XML output config
+jh7xml10l1.lf       ,XML output config - Active Only
+
+# clients/
+jh7clnt010.dspf     ,Display for jh7clnt010.
+jh7clnt020.dspf     ,Display for jh7clnt020.
+jh7clnt010.rpgle    ,Client 010 List to select from jh7LOG.
+jh7clnt020.rpgle    ,Client 020 Send Message by time stamp from jh7LOG.
+
+# servers/
+jh710SvrSt.clle     ,Start the ip HL7 Server.
+jh710Srvr.rpgle     ,The ip HL7 Server.
+jh750purge.clle     ,Submits jh751purge to Subsystem.
+jh751purge.sqlrpgle ,Purges data older than 30 days.
+jh7serverq.rpgle    ,Messages come through data Queue
+jh7dtaqend.rpgle    ,Tells the jh7serverq server to end.
+jh7recorde.rpgle    ,Records What is receved.
+
+# msgProcessPrograms/
+jh7msg100.rpgle    ,Get keys and, report.
+jh7msg150.rpgle    ,Constans, Document format, Convert Values.
+jh7msg170.sqlrpgle ,Create Report.
+jh7msg200.rpgle    ,Writes out xml file
+
+# utilityPrograms/
+jh7rftl.rpgle       ,Read IFS file write to jh7log.

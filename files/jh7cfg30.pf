@@ -1,0 +1,20 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxcfg30 - Programs to call
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7CFG30R
+     A            CFG30AD        1A         COLHDG('Active' 'Deactive')
+     A            CFG3ID        10A         COLHDG('Environment' 'ID ')
+     A            CFG3PGM1      10A         COLHDG('Program' '1')
+     A            CFG3PGM2      10A         COLHDG('Program' '2')
+     A            CFG3PGM3      10A         COLHDG('Program' '3')
+     A            CFG3PGM4      10A         COLHDG('Program' '4')
+     A            CFG3PGM5      10A         COLHDG('Program' '5')
+     A            CFG3PGM6      10A         COLHDG('Program' '6')
+     A            CFG3PGM7      10A         COLHDG('Program' '7')
+     A            CFG3PGM8      10A         COLHDG('Program' '8')
+     A            CFG3PGM9      10A         COLHDG('Program' '9')
+     A

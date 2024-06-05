@@ -1,0 +1,22 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxdoc20 - Document Output Options
+     A************1234567890******A*********1*****************************
+     A*
+     A                                      UNIQUE
+     A          R HL7DOC20R
+     A            D2ENVID       10A         COLHDG('Environment' 'ID')
+     A            D2DOCTYPE     10A         COLHDG('Doc Type')
+     A            D2NFSTPAGH     1A         COLHDG('Header Don''t' 'put on' - 
+                                                              'First Page')
+     A            D2NFSTPAGF     1A         COLHDG('Footer Don''t' 'put on' -
+                                                               'First Page')
+     A            D2HFID        10A         COLHDG('Header' 'Footer' 'ID')
+     A            D2HEADLINE     1S 0       COLHDG('Number of' 'Header Lines')
+     A            D2FOOTLINE     1S 0       COLHDG('Number of' 'Footer Lines')
+     A
+     A          K D2ENVID
+     A          K D2DOCTYPE
+     A

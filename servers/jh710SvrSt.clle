@@ -1,0 +1,36 @@
+/**************************************************************/
+/*                   */
+/*  Run the listener */
+/*                   */
+/**************************************************************/
+PGM        PARM(&port)
+
+  DCL        VAR(&port)       TYPE(*CHAR) LEN(5)
+  DCL        VAR(&logFile)    TYPE(*CHAR) LEN(1) VALUE('Y')
+  DCL        VAR(&logPrinter) TYPE(*CHAR) LEN(1) VALUE('Y')
+  DCL        VAR(&testFlag)   TYPE(*CHAR) LEN(1) VALUE('Y')
+
+  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPD  ' '*LIBL' 'JH7TMPD  ')
+  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPIN ' '*LIBL' 'JH7TMPIN ')
+  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPK  ' '*LIBL' 'JH7TMPK  ')
+/*  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPKL1' '*LIBL' 'JH7TMPKL1')*/
+/*  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPKL2' '*LIBL' 'JH7TMPKL2')*/
+  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPR  ' '*LIBL' 'JH7TMPR  ')
+  CALL       PGM(JMIS03CL) PARM('QTEMP' 'JH7TMPR2 ' '*LIBL' 'JH7TMPR2 ')
+
+  OVRPRTF    FILE(QPRINT) PAGESIZE(255 132) PRTTXT('JH7 Running Log') MAXRCDS(*NOMAX) SHARE(*YES) OVRSCOPE(*JOB)
+  MONMSG     MSGID(CPF180C CPF7343)
+
+  OVRDBF     FILE(JH7TMPD  ) TOFILE(QTEMP/JH7TMPD  )
+  OVRDBF     FILE(JH7TMPIN ) TOFILE(QTEMP/JH7TMPIN )
+  OVRDBF     FILE(JH7TMPK  ) TOFILE(QTEMP/JH7TMPK  )
+/*  OVRDBF     FILE(JH7TMPKL1) TOFILE(QTEMP/JH7TMPKL1)*/
+/*  OVRDBF     FILE(JH7TMPKL2) TOFILE(QTEMP/JH7TMPKL2)*/
+  OVRDBF     FILE(JH7TMPR  ) TOFILE(QTEMP/JH7TMPR  )
+  OVRDBF     FILE(JH7TMPR2 ) TOFILE(QTEMP/JH7TMPR2 )
+
+  CALL       PGM(jh710SRVR) PARM(&port &logFile &logPrinter &testFlag)
+
+  RCLRSC
+  RETURN
+ENDPGM

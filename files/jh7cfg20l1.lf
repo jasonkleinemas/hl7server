@@ -1,0 +1,13 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7cfg20l1 - Document Comes in multiple segments. Active Only
+     A************1234567890******A*********1*****************************
+     A
+     A          R HL7CFG20R                 PFILE(JH7CFG20)
+     A          K CFG20ID
+     A          K CFG20SEG
+     A
+     A          S CFG20AD                   VALUES('A' 'a')
+     A

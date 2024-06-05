@@ -1,0 +1,14 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxgen10 - Generic Convert Table
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7GEN10R
+     A            GENACTDEA      1A         COLHDG('ACTIVE' 'DEACTIVE')
+     A            GENID         10A         COLHDG('ENVIRONMENT' 'ID')
+     A            GENKEYTABL    10A         COLHDG('TABLE' 'KEY')
+     A            GENKEY        10A         COLHDG('VALUE' 'NOW')
+     A            GENVAL        50A         COLHDG('VALUE' 'WILL BE')
+     A*

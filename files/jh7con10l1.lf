@@ -1,0 +1,11 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7con10L1 - Constant values Active Only
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7CONR                   PFILE(JH7CON10)
+     A          K CONID
+     A          K CONNAM
+     A          S CONAD                     VALUES('A' 'a')

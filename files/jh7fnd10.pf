@@ -1,0 +1,14 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*    jhxfnd10 - Find String in Report
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7FND10R
+     A            FNDACTDEA      1A         COLHDG('ACTIVE' 'DEACTIVE')
+     A            FNDID         10A         COLHDG('ENVIRONMENT' 'ID')
+     A            FNDKEYTABL    10A         COLHDG('FIND' 'TABLE KEY')
+     A            FNDKEY        50A         COLHDG('FIND' 'KEY')
+     A            FNDSTRING     50A         COLHDG('FIND' 'STRING')
+     A*

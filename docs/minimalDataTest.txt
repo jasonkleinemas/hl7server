@@ -1,0 +1,20 @@
+Minimal Setup
+
+ACTIVE              DEACTIVE	ENVIRONMENT         ID 	SEGMENT             NAME	FIELD               TO GET	IF ARRAY            FLD #	SUB                 FIELD #	SUB SUB             FIELD #	KEY                 DESCRIPTION	IF OBX              THEN USE	ALLOW               BLANK
+CFG10AD	CFGID	CFG10SEGNM	CFG10FLD#	CFG10ARRAY	CFG10SFLD#	CFG10SSFLD	CFG10KEYDS	CFG10SEQ#	CFG10BLANK
+A	TestAdtA01	PID	5	0	1	0	nameLast  		Y
+A	TestAdtA01	PID	5	0	2	0	nameFirst 		Y
+A	TestAdtA01	PID	5	0	3	0	nameMid   		Y
+A	TestAdtA01	PID	5	0	4	0	nameMid   		Y
+A	TestAdtA01	PID	7	0	0	0	dob       		Y
+
+Active              Deactive	Environment         ID 	Program             1	Program             2	Program             3	Program             4	Program             5	Program             6	Program             7	Program             8	Program             9
+CFG30AD	CFG3ID	CFG3PGM1	CFG3PGM2	CFG3PGM3	CFG3PGM4	CFG3PGM5	CFG3PGM6	CFG3PGM7	CFG3PGM8	CFG3PGM9
+A	TestAdtA01	JH7MSG100 	JH7MSG150 	JH7MSG200 						
+
+SENDING APP  3^1^2^3	SENDING FAC  4^1^2^3	RECEIVING APP5^1^2^3	RECEIVING FAC6^1^2^3	MESSAGE             TYPE                9^1	EVENT               TYPE                9^2	ENVIRONMENT         ID
+ENVSNDAPP	ENVSNDFAC	ENVRCVAPP	ENVRCVFAC	ENVMSGTYPE	ENVMSGEVNT	ENVID
+ADT1                                                                                                                                                                                	GOOD HEALTH HOSPITAL                                                                                                                                                                	GHH LAB, INC.                                                                                                                                                                       	GOOD HEALTH HOSPITAL                                                                                                                                                                	ADT	A01	TestAdtA01
+
+A	TestAdtA01	/home/<userid>/src/jh7/xml/                                                                         	Y	/home/<userid>/src/jh7/xmllog/                                                                      
+

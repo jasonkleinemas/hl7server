@@ -1,0 +1,41 @@
+     A*%%TS  SD  20011203  111222  JASONK      REL-V4R4M0  5769-PW1
+     A****************************************************************
+     A*                                                              *
+     A*                                                              *
+     A*                                                              *
+     A*                                                              *
+     A****************************************************************
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      PRINT
+     A                                      ALTHELP(CA01)
+     A                                      HELP
+     A          R SFL01                     SFL
+     A*%%TS  SD  20011203  094213  JASONK      REL-V4R4M0  5769-PW1
+     A            OUTACK        75A  O  7  4
+     A            HL7MESSAGE 32000A  H
+     A            INOPT          1   B  7  2
+     A          R CTL01                     SFLCTL(SFL01)
+     A*%%TS  SD  20011203  111222  JASONK      REL-V4R4M0  5769-PW1
+     A                                      SFLSIZ(0016)
+     A                                      SFLPAG(0015)
+     A                                      CF03
+     A                                      ROLLUP(25)
+     A                                      OVERLAY
+     A                                      ERASE(SFL01)
+     A  30                                  SFLDSP
+     A  35                                  SFLDSPCTL
+     A  33                                  SFLCLR
+     A  34                                  SFLEND(*MORE)
+     A            RECNBR         4S 0H      SFLRCDNBR
+     A                                  1 72SYSNAME
+     A                                  2 72DATE
+     A                                      EDTCDE(Y)
+     A                                  3 72TIME
+     A                                  2 29'HL7 Client'
+     A                                  3 10'1 = send'
+     A            OUTACK        75   O  5  3
+     A          R OVR01
+     A                                      OVERLAY
+     A                                 23  5'F3=Exit'
+     A                                      DSPATR(HI)

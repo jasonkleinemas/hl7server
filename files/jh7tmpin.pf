@@ -1,0 +1,14 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxtmpin - Incomming Data Stream records
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7TMPINR
+     A            IN7DATIM        Z         COLHDG('DATETIME TRANSACTION')
+     A            IN7COUNTER     5P 0       COLHDG('LINE OF TRANSACTION ')
+     A            IN7DATA    32000A         COLHDG('DATA                ')
+     A
+     A          K IN7DATIM
+     A          K IN7COUNTER

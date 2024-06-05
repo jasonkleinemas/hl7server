@@ -1,0 +1,19 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxlog - Log of Incomming Data Stream records
+     A************1234567890******A*********1*****************************
+     A*
+     A          R LOGFILER
+     A            LOGDATIM        Z         COLHDG('DATETIME' 'TRANSACTION')
+     A            LOGCOUNTER     5P 0       COLHDG('LINE OF' 'TRANSACTION ')
+     A            LOGJOB#        6A         COLHDG('JOB' 'NUMBER')
+     A            LOGED          1A         COLHDG('WAS THIS' 'PROCESSED')
+     A            LOGRESON      50A         COLHDG('PROCESS' 'DESCRIPTION')
+     A            LOGDATA    32000A         COLHDG('PAYLOAD')
+     A
+     A          K LOGDATIM
+     A          K LOGCOUNTER
+     A          K LOGJOB#
+     A

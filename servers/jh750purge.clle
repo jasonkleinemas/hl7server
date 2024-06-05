@@ -1,0 +1,17 @@
+/*
+#----------------------------------------------------------------------------
+
+
+
+#----------------------------------------------------------------------------
+*/
+             PGM
+
+   /*        DCL        VAR(&JOBQ) TYPE(*CHAR) LEN(10) */
+
+   /*        RTVDTAARA  DTAARA(SHXJOBQ) RTNVAR(&JOBQ)  */
+
+   /*        SBMJOB     CMD(CALL PGM(SHX100PUR)) JOB(SHXPURGE) +
+                          JOBQ(&JOBQ) INLLIBL(*CURRENT)   */
+
+             ENDPGM

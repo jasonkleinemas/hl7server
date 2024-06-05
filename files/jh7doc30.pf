@@ -1,0 +1,17 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxdoc30 - Field Descriptions
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7DOC30R
+     A            D3HFID        10A         COLHDG('Header' 'Footer' 'ID')
+     A            D3TYPE         1A         COLHDG('Header' 'or Footer')
+     A            D3LINE         1S 0       COLHDG('Line Number')
+     A            D3COLLUM       3S 0       COLHDG('Column Number')
+     A            D3TRIMTYPE     1A         COLHDG('Type of' 'Blank Trim')
+     A            D3VARTYPE      1A         COLHDG('Type of' 'Value')
+     A            D3VARNAME     10A         COLHDG('Value Name')
+     A
+     A

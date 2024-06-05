@@ -1,0 +1,24 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxcfg20 - Document Comes in multiple segments.
+     A************1234567890******A*********1*****************************
+     A
+     A          R HL7CFG20R
+     A            CFG20AD        1A         COLHDG('Active' 'Deacive')
+     A            CFG20ID       10A         COLHDG('Environment' 'ID')
+     A            CFG20SEG       3A         COLHDG('Report' 'Segment')
+     A            CFG20FLD#      3P 0       COLHDG('Field' 'To Get')
+     A            CFG20ARRAY     3P 0       COLHDG('If Array' 'Fld #')
+     A            CFG20SFLD#     3P 0       COLHDG('Sub' 'Field #')
+     A            CFG20SSFLD     3P 0       COLHDG('Sub SUB' 'Field #')
+     A            CFG20REPOR     1A         COLHDG('Report' 'In' 'One Seg')
+     A            CFG20CTRF      2S 0       COLHDG('Segment' 'Counter' 'Field')
+     A            CFG20SEPL     10A         COLHDG('Line' 'Seperator')
+     A            CFG20SEPP     10A         COLHDG('Page' 'Seperator')
+     A            CFG20MISC1     5A         COLHDG('Misc' '1')
+     A            CFG20MISC2     5A         COLHDG('Misc' '2')
+     A            CFG20MISC3     5A         COLHDG('Misc' '3')
+     A            CFG20MISC4     5A         COLHDG('Misc' '4')
+     A

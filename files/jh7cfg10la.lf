@@ -1,0 +1,15 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7cfg10La - Field Table
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7CFG10R                 PFILE(JH7CFG10)
+     A          K CFGID
+     A          K CFG10SEGNM
+     A          K CFG10SEQ#
+     A          K CFG10FLD#
+     A          K CFG10ARRAY
+     A          K CFG10SFLD#
+     A          K CFG10SSFLD

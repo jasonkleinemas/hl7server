@@ -1,0 +1,27 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxenv20 - 
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7ENV2R
+     A            ENVACTDEA      1A         COLHDG('ACTIVE' 'DEACTIVE')
+     A            ENID          10A         COLHDG('ENVIRONMENT' 'ID')
+     A            ENSNDANAME    60A         COLHDG('SEND APP' 'NAMESPACE ID')
+     A            ENSNDAUID     60A         COLHDG('SEND APP' 'UNIVERSAL ID')
+     A            ENSNDAUTID    60A         COLHDG('SEND APP' 'UNIVERSAL'   -
+                                                                'ID TYPE')
+     A            ENSNDFNAME    60A         COLHDG('SEND FAC' 'NAMESPACE ID')
+     A            ENSNDFUID     60A         COLHDG('SEND FAC' 'UNIVERSAL ID')
+     A            ENSNDFUTID    60A         COLHDG('SEND FAC' 'UNIVERSAL'   -
+                                                                 'ID TYPE')
+     A            ENRCVANAME    60A         COLHDG('RECEVE APP' 'NAMESPACE ID')
+     A            ENRCVAUID     60A         COLHDG('RECEVE APP' 'UNIVERSAL ID')
+     A            ENRCVAUTID    60A         COLHDG('RECEVE APP' 'UNIVERSAL' -
+                                                                    'ID TYPE')
+     A            ENRCVFNAME    60A         COLHDG('RECEVE FAC' 'NAMESPACE ID')
+     A            ENRCVFUID     60A         COLHDG('RECEVE FAC' 'UNIVERSAL ID')
+     A            ENRCVFUTID    60A         COLHDG('RECEVE FAC' 'UNIVERSAL' -
+                                                                    'ID TYPE')
+     A            ENTEXTMSG     80A         COLHDG('TEXT MESSAGE')

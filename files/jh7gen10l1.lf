@@ -1,0 +1,12 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7gen10 - Generic Convert Table Active Only
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7GEN10R                 PFILE(JH7GEN10)
+     A          K GENID
+     A          K GENKEYTABL
+     A          K GENKEY
+     A          S GENACTDEA                 VALUES('A' 'a')

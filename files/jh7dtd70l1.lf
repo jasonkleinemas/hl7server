@@ -1,0 +1,12 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   JH7dtd170l1 - Document Type Definition Active Only
+     A************1234567890******A*********1*****************************
+      *
+     A*
+     A          R HL7170R                   PFILE(JH7DTD70)
+     A          K DSEQ#
+     A          S DACREC                    COMP(EQ 'A')
+     A*

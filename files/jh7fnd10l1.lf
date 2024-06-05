@@ -1,0 +1,14 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*  JH7fnd10l1 - Find String in Report
+     A************1234567890******A*********1*****************************
+     A*
+     A                                      UNIQUE
+     A          R HL7FND10R                 PFILE(JH7FND10)
+     A          K FNDID
+     A          K FNDKEYTABL
+     A          K FNDKEY
+     A          S FNDACTDEA                 VALUES('A' 'a')
+     A*

@@ -1,0 +1,12 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxtmpk - Temp File - Holds Keys
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7TMPKR
+     A            TMPKEY        10A         COLHDG('KEY' 'KEY')
+     A            TMPVAL      1000A         COLHDG('KEY' 'VALUE')
+     A
+     A          K TMPKEY

@@ -1,0 +1,14 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxcon10 - Constant values
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7CONR
+     A            CONAD          1A         COLHDG('ACTIVE' 'DEACTIVE')
+     A            CONID         10A         COLHDG('ENVIRONMENT' 'ID')
+     A            CONNAM        10A         COLHDG('CONSTANT' 'NAME')
+     A            CONVAL        50A         COLHDG('CONSTANT' 'VALUE')
+
+

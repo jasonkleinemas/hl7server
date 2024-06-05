@@ -1,0 +1,32 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxtmpd - Document Info
+     A************1234567890******A*********1*****************************
+     A*
+     A          R HL7TMPDR
+     A*           D3FILEID      10A         COLHDG('FILE' 'ID')   USE IF MUTIPUL
+     A            D3PAGLEN       5A         COLHDG('PAGE' 'LENGTH' 'INCHES')
+     A            D3PAGWTH       5A         COLHDG('PAGE' 'WIDTH IN' 'INCHES')
+     A            D3TOPMAR       5A         COLHDG('TOP' 'MARGIN' 'IN INCHES')
+     A            D3LFTMAR       5A         COLHDG('LEFT' 'MARGIN'  'INCHES')
+     A            D3LINSPC       5A         COLHDG('LINE' 'SPACING' 'INCHES')
+     A            D3FNTTYP       5A         COLHDG('FONT' 'TYPE')
+     A            D3FNTWTH       5A         COLHDG('# CHAR' 'PER' 'INCH')
+     A            D3RECLNG       5A         COLHDG('CHAR' 'PER' 'LINE')
+     A            D3LINPAG       5A         COLHDG('LINES' 'PER' 'PAGE')
+     A            D3OVERLAY     10A         COLHDG('OVERLAY' 'NAME')
+     A            D3FILETYP1    50A         COLHDG('FILE TYPE' 'ATTRIBUTE' '1')
+     A            D3FILETYP2    50A         COLHDG('FILE TYPE' 'ATTRIBUTE' '2')
+     A            D3FILETYP3    50A         COLHDG('FILE TYPE' 'ATTRIBUTE' '3')
+     A            D3FILETYP4    50A         COLHDG('FILE TYPE' 'ATTRIBUTE' '4')
+     A            D3FILETYP5    50A         COLHDG('FILE TYPE' 'ATTRIBUTE' '5')
+     A            D3DATATYP1    50A         COLHDG('DATA TYPE' 'ATTRIBUTE' '1')
+     A            D3DATATYP2    50A         COLHDG('DATA TYPE' 'ATTRIBUTE' '2')
+     A            D3DATATYP3    50A         COLHDG('DATA TYPE' 'ATTRIBUTE' '3')
+     A            D3DATATYP4    50A         COLHDG('DATA TYPE' 'ATTRIBUTE' '4')
+     A            D3DATATYP5    50A         COLHDG('DATA TYPE' 'ATTRIBUTE' '5')
+     A*           D3              A         COLHDG('                    ')
+     A*           D3              A         COLHDG('                    ')
+     A*

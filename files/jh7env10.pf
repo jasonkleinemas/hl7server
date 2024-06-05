@@ -1,0 +1,26 @@
+     A********************************************************************
+     A*
+     A*
+     A*
+     A*   jhxenv10 - Apps to call based on Enviorment
+     A************1234567890******A*********1*****************************
+     A          R HL7ENVR
+     A            ENVSNDAPP    180A         COLHDG('SENDING APP  3^1^2^3')
+     A                                      TEXT('HL7 SEG 1 FIELD 1')
+     A            ENVSNDFAC    180A         COLHDG('SENDING FAC  4^1^2^3')
+     A                                      TEXT('FIELD 2')
+     A            ENVRCVAPP    180A         COLHDG('RECEIVING APP5^1^2^3')
+     A                                      TEXT('FIELD 3')
+     A            ENVRCVFAC    180A         COLHDG('RECEIVING FAC6^1^2^3')
+     A                                      TEXT('FIELD 4')
+     A            ENVMSGTYPE     3A         COLHDG('MESSAGE' 'TYPE' '9^1')
+     A            ENVMSGEVNT     3A         COLHDG('EVENT'   'TYPE' '9^2')
+     A
+     A            ENVID         10A         COLHDG('ENVIRONMENT' 'ID')
+     A
+     A          K ENVSNDAPP
+     A          K ENVSNDFAC
+     A          K ENVRCVAPP
+     A          K ENVRCVFAC
+     A          K ENVMSGTYPE
+     A          K ENVMSGEVNT
